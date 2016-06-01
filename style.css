@@ -1,0 +1,103 @@
+body {
+	font-family: arial, sans-serif;
+	color: #222;
+}
+
+article{
+	padding: 10rem 0 0 0;
+}
+
+.logo, .search {
+	display: block;
+	margin: 0 auto;
+}
+
+.logo {
+	padding: 0 0 25px 0;
+}
+
+.search {
+	border-radius: 0px;
+	border-style: solid;
+	border-color: #757575;
+	border-width: 1.5px;
+	padding: 5px;
+	white-space: nowrap;
+}
+
+.submitbuttons {
+	text-align: center;
+	padding: 25px 0 0 0;
+	}
+
+.googleSearch, .imFeelingLucky {
+	padding: 10px 15px 10px 15px;
+	color: #757575;
+	background-color: #f2f2f2;
+	border-radius: 0px;
+	border-style: solid;
+	border-color: #f2f2f2;
+	border-width: 0.5px;
+	font-weight: bold;
+	font-size: 0.8rem;
+}
+
+.googleSearch:hover, .imFeelingLucky:hover {
+	padding: 10px 15px 10px 15px;
+	color: #000;
+	background-color: #f2f2f2;
+	border-radius: 0px;
+	border-style: solid;
+	border-color: #757575;
+	border-width: 0.5px;
+	font-weight: bold;
+	font-size: 0.8rem;
+	text-shadow: 0.25px 0.25px #757575;
+}
+
+.button-separation {
+	display: inline-block;
+	padding: 1px;
+}
+
+nav {
+	position: fixed;
+	right: 15px;
+	top: 15px;
+	color: #757575;
+}
+
+footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	background: #f2f2f2;
+	padding: 10px 0px 10px 0px;
+}
+
+.footer-left {
+	float: left;
+	padding-left: 10px;
+	color: #757575;
+}
+
+.footer-right {
+	float: right;
+	padding-right: 10px;
+	color: #757575;
+}
+
+li {
+	display: inline-block;
+	padding: 0.5rem;
+	font-size: 0.8rem;
+	vertical-align: middle;
+}
+
+#SignIn {
+	padding: 0.5rem;
+	background-color: #4387fd;
+	color: #ffffff;
+	font-weight: bold;
+	border-radius: 2px;
+}
